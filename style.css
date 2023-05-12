@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    background: url(bground.png);
+    height: 100vh;
+    background-size: 100% 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container .navbar{
+    width : 100;
+    height : 80px;
+    background:#a08b85;
+}
+
+.navbar .logo{
+    display:inline-block;
+    margin-left: 100px;
+    margin-top : 10px;
+}
+
+.navbar .logo a{
+    text-decoration:none;
+    font-size : 50px;
+    font-family: fantasy;
+    color: #2be2b4;
+}
+
+.navbar ul{
+    float: right;
+    margin-right : 150px;
+}
+
+.navbar ul li{
+    list-style :none;
+    display:inline-block;
+    margin:0 10px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    font-size : 20px;
+    font-family:Roboto;
+    color: rgb(255, 255, 255);
+    padding: 6px 13px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:#2be2b4;
+    border-radius:2px;
+}
+
+.container .center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    font-family : sans-serif;
+    user-select:none;
+}
+
+.container h1{
+    color:#55a792;
+    font-size: 70px;
+    font-weight: bold;
+    width: 1300px;
+    text-align: center;
+}
+
+.container p{
+    background-color: #2c24244f;
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    width: 1300px;
+    margin-top:30px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.center .buttons{
+    margin:35px 280px;
+}
+
+.container form{
+    margin:100px 400px;
+}
+
+.container label{
+    
+    font-size: 30px;
+    font-family: bold;
+    background:#bbafaf;
+    border-radius: 5px;
+}
+
+.container button{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: bold;
+    color: #262c29;
+    background:#bbafaf;
+    border:solid 1px rgb(0, 0, 0);
+    cursor :pointer;
+    outline: none;
+    border-radius: 25px;
+}
+
+
+  
